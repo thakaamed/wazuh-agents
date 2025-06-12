@@ -1,0 +1,69 @@
+# ThakaaMed Wazuh Package - Git Ignore File
+# ==========================================
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Log files (don't commit actual logs)
+*.log
+logs/
+/var/log/
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Package files (in case someone builds packages)
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# Runtime files
+*.pid
+/tmp/
+/var/run/
+
+# Local configuration overrides
+local.conf
+*.local
+
+# Test files
+test_*
+*_test
+testing/
+
+# Documentation build artifacts
+_build/
+.doctrees/
+
+# Python cache (if any Python tools are added)
+__pycache__/
+*.pyc
+*.pyo
+
+# Node modules (if any JS tools are added)
+node_modules/
+
+# Personal notes
+NOTES.md
+TODO.md
+*.notes 
